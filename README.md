@@ -1,5 +1,13 @@
 # Memory Game
 
+```
+ __ __   ___   __ __    __    ___   __   __    __    __    __ __   ___  
+|  V  | | __| |  V  |  /__\  | _ \  \ `v' /   / _]  /  \  |  V  | | __| 
+| \_/ | | _|  | \_/ | | \/ | | v /   `. .'   | [/\ | /\ | | \_/ | | _|  
+|_| |_| |___| |_| |_|  \__/  |_|_\    !_!     \__/ |_||_| |_| |_| |___| 
+```
+
+
 This is a simple memory game implemented in Python. The game tests your memory skills by challenging you to remember and recall words in a given order. Each level increases the number of words to remember, providing an escalating difficulty.
 
 ## Features
