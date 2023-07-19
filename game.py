@@ -1,4 +1,9 @@
+import os
 import random
+
+def clear_screen():
+    # Function to clear the terminal screen
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def load_words(file_path):
     with open(file_path, 'r') as file:
@@ -7,6 +12,7 @@ def load_words(file_path):
     return words
 
 def play_memory_game(words, level):
+    clear_screen()
     print(f"Level {level}:")
     print("***************************")
     print(f"Remember the word: {words[level-1]}")
